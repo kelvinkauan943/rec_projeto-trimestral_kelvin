@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+h2{
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    color: darkgrey;
+}
+
+header {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+nav {
+    background-color: #3a0a0a;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #ff0000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
